@@ -3,7 +3,7 @@ from celery import Celery
 import requests
 from django.core.mail import send_mail
 from django.http import HttpResponse
-from coursera_house import settings
+from smart_house_project import settings
 from .models import Setting
 
 celery = Celery('tasks', broker='amqp://localhost//')

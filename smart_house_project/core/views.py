@@ -2,7 +2,7 @@ from django.urls import reverse_lazy
 from django.views.generic import FormView
 from .tasks import smart_home_manager
 from .models import Setting
-from coursera_house import settings
+from smart_house_project import settings
 import requests
 from django.http import HttpResponse
 from .form import ControllerForm
